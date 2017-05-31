@@ -8,5 +8,6 @@ public class Stos<T> {
 	public T pop() { return stos.removeFirst(); }
 	public boolean isEmpty() { return stos.isEmpty(); }
 	public String toString() { return stos.toString(); }
+	public int size() {return stos.size();}
 	
 }
